@@ -1,0 +1,141 @@
+body {
+	background-color: white;
+	font-family     : "Fira Code";
+	font-size       : 12px;
+}
+
+div.op50 {
+	background-color: #000;
+	color           : white;
+	opacity         : 0.5;
+	height          : 128px;
+	width           : 128px;
+	position        : absolute;
+	border-radius   : 12px;
+	display         : flex;
+	align-items     : center;
+	justify-content : center;
+
+
+}
+
+div.cl50 {
+	background-color: rgba(0, 0, 0, 0.5);
+	color           : white;
+	opacity         : 1;
+	height          : 128px;
+	width           : 128px;
+	position        : absolute;
+	border-radius   : 12px;
+	display         : flex;
+	align-items     : center;
+	justify-content : center;
+}
+
+div.op50red {
+	background-color: rgb(255, 0, 0);
+	color           : white;
+	opacity         : 0.5;
+	height          : 128px;
+	width           : 128px;
+	position        : absolute;
+	border-radius   : 12px;
+	display         : flex;
+	align-items     : center;
+	justify-content : center;
+
+
+}
+
+div.cl50red {
+	background-color: rgba(255, 0, 0, 0.5);
+	color           : white;
+	opacity         : 1;
+	height          : 128px;
+	width           : 128px;
+	position        : absolute;
+	border-radius   : 12px;
+	display         : flex;
+	align-items     : center;
+	justify-content : center;
+}
+
+#a1 {
+	z-index : 1;
+	position: absolute;
+}
+
+#a2 {
+	top: 96px;
+}
+
+#a3 {
+	left: 96px;
+}
+
+#a4 {
+	top : 96px;
+	left: 96px;
+}
+
+#b1 {
+	z-index: 1;
+	left   : 300px;
+}
+
+#b2 {
+	left: 396px;
+}
+
+#b3 {
+	top : 96px;
+	left: 300px;
+}
+
+#b4 {
+	top : 96px;
+	left: 396px;
+}
+
+#c1 {
+	z-index: 1;
+
+	top: 300px;
+
+}
+
+#c2 {
+	top: 396px;
+
+}
+
+#c3 {
+	top : 300px;
+	left: 96px;
+}
+
+#c4 {
+	top : 396px;
+	left: 96px;
+}
+
+#d1 {
+	z-index: 1;
+	left   : 300px;
+	top    : 300px
+}
+
+#d2 {
+	left: 396px;
+	top : 300px;
+}
+
+#d3 {
+	top : 396px;
+	left: 300px;
+}
+
+#d4 {
+	top : 396px;
+	left: 396px;
+}
