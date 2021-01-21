@@ -29,10 +29,10 @@ export default function FourColorBox() {
 	}
 	return (
 		<>
-			<ColorBox key="c1" style={style.c1} />
-			<ColorBox key="c2" style={style.c2} />
-			<ColorBox key="c3" style={style.c3} />
-			<ColorBox key="c4" style={style.c4} />
+			<ColorBox key="c1" label="box1" style={style.c1} />
+			<ColorBox key="c2" label="box2" style={style.c2} />
+			<ColorBox key="c3" label="box3" style={style.c3} />
+			<ColorBox key="c4" label="box4" style={style.c4} />
 		</>
 	)
 }
