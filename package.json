@@ -1,0 +1,38 @@
+{
+  "name": "css",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/index.ts",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nominalrune/css.git"
+  },
+  "author": "nominalrune",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nominalrune/css/issues"
+  },
+  "homepage": "https://github.com/nominalrune/css#readme",
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.11.9",
+    "@testing-library/react": "^11.2.3",
+    "@types/jest": "^26.0.20",
+    "@types/react": "^17.0.0",
+    "jest": "^26.6.3",
+    "ts-jest": "^26.4.4",
+    "ts-node-dev": "^1.1.1",
+    "typescript": "^4.1.3"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.11.2",
+    "next": "^10.0.5",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
